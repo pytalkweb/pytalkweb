@@ -13,9 +13,9 @@ Talkweb is a way of building web pages in python using the document object model
 
 As an example, in your python interpreter, try this,
 from talkweb import *
-c = cell(tag="div")
-c.data="Hello world"
-c.html()
+c = cell(tag="div");
+c.data="Hello world";
+c.html();
 
 Write your html in string and use
 h2o('html string','s') to bring to object structure (cells) or 
@@ -37,7 +37,7 @@ What's talksql?
 A wrapper around mysqlconnector or it's equivalent to any database. It has global functions for most redundantly used functions.
 
 As an example, 
-con = sockconnect(db=dbname)
+con = sockconnect(db=dbname);
 rs,c=xecrs(con,sql)
 
 returns result-set in [[col1,col2.. ]] and cursor for any residual use in state as c.
