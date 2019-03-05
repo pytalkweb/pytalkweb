@@ -1,5 +1,6 @@
 talkweb 
 =======
+Works only with python 2.7 version at this point.
 
 Deploying talkweb 
 
