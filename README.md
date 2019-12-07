@@ -48,10 +48,10 @@ You can use <anycell>.addcell to add the cells to that cell. To get the existing
 You can use html snippets in code and convert them to cells and work with them like you work with document object model on the client side with javascript, here with python. Most frameworks work the other way allow code substituitions inside html. I find it easy to code or logic first before writing html while writing server code, hence talkweb. 
 
 Using talkweb with apache, mysql and mod_wsgi,
-1.  Install apache or any other webserver
-2.  Install mysql server or any other relational database
-3.  Install mysqlconnector setup.py - python connector to mysql database or it's equivalent to your database
-4.  Install mod_wsgi setup.py - apache plugin for WSGI implementation
+1.  Install apache
+2.  Install mysql server
+3.  Install mysqlconnector 
+4.  Install mod_wsgi setup.py
 
 Now to the talkweb setup which was described above as deploying talkweb, run the setup.py in each of the folders, talkweb, talksql and wsgitalkback.
  
